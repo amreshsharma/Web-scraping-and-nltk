@@ -13,7 +13,9 @@ data visualization using matplotlib
 
 Get Data from 'Project Gutenberg'-
 #Store url
+
 url = 'https://www.gutenberg.org/files/2701/2701-h/2701-h.htm'
+
 import requests
 from bs4 import BeautifulSoup
 # Make the request
