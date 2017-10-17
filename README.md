@@ -87,5 +87,7 @@ import seaborn as sns
 sns.set()
 
 # Create frequency distribution and plot
+
 freqdist1 = nltk.FreqDist(words_ns)
+
 freqdist1.plot(25)
